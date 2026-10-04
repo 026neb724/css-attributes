@@ -7,23 +7,36 @@
     <style>
 
         body {
-            font-family: Arial;
+            color: #222;
             background-color: #eeeeee;
+            font-family: Arial;
             text-align: center;
         }
+
 
         h1 {
             color: darkblue;
         }
 
+
+        /* Common box */
         .box {
-            width: 300px;
-            height: 100px;
-            margin: 20px auto;
-            padding: 15px;
+            width: 200px;
+            height: 70px;
+
+            margin: 10px;
+            padding: 10px;
+
             background-color: white;
+
             border: 2px solid black;
-            border-radius: 10px;
+            border-radius: 8px;
+
+            display: inline-block;
+
+            vertical-align: top;
+
+            box-sizing: border-box;
         }
 
 
@@ -53,7 +66,7 @@
 
         /* 5. font-size */
         .box5 {
-            font-size: 30px;
+            font-size: 25px;
         }
 
 
@@ -95,55 +108,55 @@
 
         /* 12. letter-spacing */
         .box12 {
-            letter-spacing: 5px;
+            letter-spacing: 4px;
         }
 
 
         /* 13. word-spacing */
         .box13 {
-            word-spacing: 15px;
+            word-spacing: 10px;
         }
 
 
         /* 14. width */
         .box14 {
-            width: 500px;
+            width: 250px;
         }
 
 
         /* 15. height */
         .box15 {
-            height: 150px;
+            height: 90px;
         }
 
 
         /* 16. margin */
         .box16 {
-            margin: 50px auto;
+            margin: 20px;
         }
 
 
         /* 17. padding */
         .box17 {
-            padding: 40px;
+            padding: 20px;
         }
 
 
         /* 18. border */
         .box18 {
-            border: 5px dashed red;
+            border: 4px dashed red;
         }
 
 
         /* 19. border-radius */
         .box19 {
-            border-radius: 50px;
+            border-radius: 30px;
         }
 
 
         /* 20. box-shadow */
         .box20 {
-            box-shadow: 10px 10px 15px gray;
+            box-shadow: 5px 5px 10px gray;
         }
 
 
@@ -155,7 +168,7 @@
 
         /* 22. display */
         .box22 {
-            display: block;
+            display: inline-block;
         }
 
 
@@ -168,21 +181,21 @@
         /* 24. top */
         .box24 {
             position: relative;
-            top: 20px;
+            top: 10px;
         }
 
 
         /* 25. left */
         .box25 {
             position: relative;
-            left: 30px;
+            left: 15px;
         }
 
 
         /* 26. right */
         .box26 {
             position: relative;
-            right: 30px;
+            right: 15px;
         }
 
 
@@ -196,7 +209,7 @@
         /* 28. overflow */
         .box28 {
             overflow: hidden;
-            height: 50px;
+            height: 45px;
         }
 
 
@@ -213,13 +226,13 @@
 
         .box30 ul {
             list-style: square;
+            margin: 5px;
         }
 
 
         /* 31. float */
         .box31 {
             float: left;
-            margin-left: 100px;
         }
 
 
@@ -262,209 +275,179 @@
 
     <h1>35 Common CSS Properties</h1>
 
-    <p>Each box demonstrates one CSS property.</p>
+    <p>CSS Property Demonstration</p>
 
 
     <div class="box box1">
-        1. color
-        <br>
+        1. color<br>
         color: red;
     </div>
 
 
     <div class="box box2">
-        2. background-color
-        <br>
+        2. background-color<br>
         background-color: lightblue;
     </div>
 
 
     <div class="box box3">
-        3. background-image
-        <br>
+        3. background-image<br>
         background-image: url();
     </div>
 
 
     <div class="box box4">
-        4. font-family
-        <br>
+        4. font-family<br>
         font-family: Georgia;
     </div>
 
 
     <div class="box box5">
-        5. font-size
-        <br>
-        font-size: 30px;
+        5. font-size<br>
+        font-size: 25px;
     </div>
 
 
     <div class="box box6">
-        6. font-weight
-        <br>
+        6. font-weight<br>
         font-weight: bold;
     </div>
 
 
     <div class="box box7">
-        7. font-style
-        <br>
+        7. font-style<br>
         font-style: italic;
     </div>
 
 
     <div class="box box8">
-        8. text-align
-        <br>
+        8. text-align<br>
         text-align: left;
     </div>
 
 
     <div class="box box9">
-        9. text-decoration
-        <br>
+        9. text-decoration<br>
         text-decoration: underline;
     </div>
 
 
     <div class="box box10">
-        10. text-transform
-        <br>
+        10. text-transform<br>
         text-transform: uppercase;
     </div>
 
 
     <div class="box box11">
-        11. line-height
-        <br>
+        11. line-height<br>
         line-height: 2;
     </div>
 
 
     <div class="box box12">
-        12. letter-spacing
-        <br>
-        letter-spacing: 5px;
+        12. letter-spacing<br>
+        letter-spacing: 4px;
     </div>
 
 
     <div class="box box13">
-        13. word-spacing
-        <br>
-        word-spacing: 15px;
+        13. word-spacing<br>
+        word-spacing: 10px;
     </div>
 
 
     <div class="box box14">
-        14. width
-        <br>
-        width: 500px;
+        14. width<br>
+        width: 250px;
     </div>
 
 
     <div class="box box15">
-        15. height
-        <br>
-        height: 150px;
+        15. height<br>
+        height: 90px;
     </div>
 
 
     <div class="box box16">
-        16. margin
-        <br>
-        margin: 50px auto;
+        16. margin<br>
+        margin: 20px;
     </div>
 
 
     <div class="box box17">
-        17. padding
-        <br>
-        padding: 40px;
+        17. padding<br>
+        padding: 20px;
     </div>
 
 
     <div class="box box18">
-        18. border
-        <br>
-        border: 5px dashed red;
+        18. border<br>
+        border: 4px dashed red;
     </div>
 
 
     <div class="box box19">
-        19. border-radius
-        <br>
-        border-radius: 50px;
+        19. border-radius<br>
+        border-radius: 30px;
     </div>
 
 
     <div class="box box20">
-        20. box-shadow
-        <br>
-        box-shadow: 10px 10px 15px gray;
+        20. box-shadow<br>
+        box-shadow: 5px 5px 10px gray;
     </div>
 
 
     <div class="box box21">
-        21. opacity
-        <br>
+        21. opacity<br>
         opacity: 0.5;
     </div>
 
 
     <div class="box box22">
-        22. display
-        <br>
-        display: block;
+        22. display<br>
+        display: inline-block;
     </div>
 
 
     <div class="box box23">
-        23. position
-        <br>
+        23. position<br>
         position: relative;
     </div>
 
 
     <div class="box box24">
-        24. top
-        <br>
-        top: 20px;
+        24. top<br>
+        top: 10px;
     </div>
 
 
     <div class="box box25">
-        25. left
-        <br>
-        left: 30px;
+        25. left<br>
+        left: 15px;
     </div>
 
 
     <div class="box box26">
-        26. right
-        <br>
-        right: 30px;
+        26. right<br>
+        right: 15px;
     </div>
 
 
     <div class="box box27">
-        27. bottom
-        <br>
+        27. bottom<br>
         bottom: 10px;
     </div>
 
 
     <div class="box box28">
-        28. overflow
-        <br>
+        28. overflow<br>
         overflow: hidden;
-        This extra text is hidden.
     </div>
 
 
     <div class="box box29">
-        29. cursor
-        <br>
+        29. cursor<br>
         cursor: pointer;
     </div>
 
@@ -482,47 +465,32 @@
 
 
     <div class="box box31">
-        31. float
-        <br>
+        31. float<br>
         float: left;
     </div>
 
 
     <div class="box box32">
-        32. clear
-        <br>
+        32. clear<br>
         clear: both;
     </div>
 
 
     <div class="box box33">
-        33. z-index
-        <br>
+        33. z-index<br>
         z-index: 10;
     </div>
 
 
     <div class="box box34">
-
-        34. flex-direction
-
-        <div>
-            A
-            B
-            C
-        </div>
-
+        34. flex-direction<br>
+        flex-direction: row;
     </div>
 
 
     <div class="box box35">
-
-        35. justify-content
-
-        <div>
-            Centered
-        </div>
-
+        35. justify-content<br>
+        justify-content: center;
     </div>
 
 
